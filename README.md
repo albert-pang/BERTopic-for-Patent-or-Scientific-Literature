@@ -2,7 +2,7 @@
 
 1. Open Anaconda prompt
 
-2. Change directory to project folder:
+2. Change directory to project folder (where the environment.yml is):
 cd <PATH_TO_FOLDER>
 
 3. Create the new environment and install dependencies:
