@@ -5,7 +5,7 @@
 2. Change directory to project folder:
 cd <PATH_TO_FOLDER>
 
-3. Create new environment and install dependencies:
+3. Create the new environment and install dependencies:
 conda env create -f environment.yml
 
 4. Activate the newly created environment:
@@ -14,7 +14,7 @@ conda activate bertopicnew
 5. Install kernel so that the environment can be accessed by the jupyter notebook: 
 python -m ipykernel install --user --name bertopicnew
 
-Note: You can change the name "bertopicnew", but you have to change the environment name inside the .yml as well
+Note: You can change the name "bertopicnew" by changing environment name inside the .yml as well
 
 6. Go back to base environment: 
 conda deactivate
